@@ -1,0 +1,11 @@
+git clone git@github.com:kevinha298/django-docker-compose-deployment.git
+--make some changes
+git add -A
+git commit -m "Fist commit."
+git push origin
+
+git branch dev
+git branch -A
+
+git checkout dev
+-- make some more changes.
