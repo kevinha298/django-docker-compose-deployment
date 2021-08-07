@@ -16,7 +16,7 @@ RUN python -m venv /py && \
         build-base postgresql-dev musl-dev linux-headers && \
     /py/bin/pip install -r /requirements.txt && \
     apk del .tmp-deps && \
-    adduser --disabled-password --no-create-home app && \
+    adduser --disabled-password --no-create-home app && 
 
 ENV PATH="/scripts:/py/bin:$PATH"
 
