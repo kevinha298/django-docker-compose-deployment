@@ -1,5 +1,5 @@
 FROM python:3.9-alpine3.13
-LABEL maintainer="pythonsaigon@gmail.com"
+LABEL maintainer="londonappdeveloper.com"
 
 ENV PYTHONUNBUFFERED 1
 
@@ -26,9 +26,8 @@ RUN python -m venv /py && \
 
 ENV PATH="/scripts:/py/bin:$PATH"
 
-USER app 
+USER app
 
 CMD ["run.sh"]
-
 
 
